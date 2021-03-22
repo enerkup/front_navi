@@ -1,11 +1,45 @@
 {{>header}}
 
-<nav>
-    <ul>
-        {{#nav_items}}
-        <li><a href="{{url}}">{{item}}</a></li>
-        {{/nav_items}}
-    </ul>
-</nav>
+<div class="container-fluid">
 
-{{>footer}}
+    <div class="row">
+        <nav id="sidebar" class="col-md-3 col-lg-2 px-0">
+            <div class="logo">
+                <img class="img-fluid" src="{{logo}}" alt="">
+            </div>
+            <ul class="menu">
+                <li class="selected">
+                    <a href="#"> <span class="material-icons">dashboard_customize</span> AAA</a>
+                    <!--
+                    <ul>
+                        <li><a href="#">A.1</a></li>
+                    </ul>
+                    -->
+                </li>
+                <li>
+                    <a href="#"> <span class="material-icons">dashboard_customize</span> BBBB</a>
+                </li>
+            </ul>
+            <div class="imagenPdm">
+                <div class="imagenPdm__sombra"></div>
+            </div>
+        </nav>
+        <div id="stepsOrder" class="col-md-9 col-md-10 ml-sm-auto">
+            <div class="topBar"></div>
+            <section class="step">
+                <h1>Orden A32</h1>
+                <ul>
+                    <li class="active">Solicitud</li>
+                    <li>Activa</li>
+                    <li>Consulta</li>
+                </ul> 
+            </section>
+
+            {{>step_pf01}}
+
+        </div>
+    </div>
+</div>
+
+
+{{>footer}} 

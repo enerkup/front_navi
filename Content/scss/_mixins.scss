@@ -1,6 +1,13 @@
 
+$base_blue: #00355f;
+$selected_blue : darken($base_blue, 4%);
+$step_blue : lighten($base_blue, 10%);
+
+$base_orange: #f47820;
+
 @mixin reset-list {
     margin: 0;
     padding: 0;
     list-style: none;
   }
+

@@ -1,23 +1,4 @@
-
-var header = `
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-    <link href="./Content/css/theme.css" rel="stylesheet">    
-
-    <title>Hello, world!</title>
-  </head>
-  <body>
-`;
-
-var footer = `
+module.exports = `
 
 <script src="/reload/reload.js"></script>
 
@@ -36,30 +17,3 @@ var footer = `
 </body>
 </html>
 `;
-
-
-
-module.exports = { 
-    partials: () => {
-        return {
-        header: header, 
-            footer: footer
-            }
-        },
-    data: ()=> {
-        return {
-            title: "Webpage Title",
-            logo: "./Content/images/logo.png",
-            nav_items: [
-                {
-                    "item": "Home", 
-                    "url": "/index.html"
-                },
-                {
-                    "item": "Vacation", 
-                    "url": "/vacations.html"
-                }
-            ]
-        } 
-    }
-}

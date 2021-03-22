@@ -5,7 +5,7 @@ const fs = require('fs');
 const reload = require('reload');  
 const mustache = require("mustache")
 const path = require('path') 
-const templates = require('./templates.jsx')
+const templates = require('./templates/templates.js')
 
 app.use('/Content',express.static('Content'));
 app.use('/fonts',express.static('fonts'));
