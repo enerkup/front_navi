@@ -1,12 +1,11 @@
-var unidad = "set_cuestionarios";
+var unidad = "set_retenciones";
 
 module.exports =  `
 
 <div class="accordion" id="${unidad}">
 
 
-${template("datos_cuestionario","Cuestionario")}
-${template("datos_domicilio","INFONAVIT Y RETENCIONES")}
+${template("datos_infonavit","INFONAVIT Y RETENCIONES")}
 ${template("datos_avales","Avales")}
 
 

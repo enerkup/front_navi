@@ -1,5 +1,28 @@
-module.exports = 
-    `
+
+module.exports = `
+<table class="table table-bordered">
+    <thead>
+        <tr>
+        <th scope="col"></th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Domicilio</th>
+        </tr>
+    </thead>
+    <tbody id="add_user">
+        <tr>
+        <td>
+            <a href="./detalle_consulta.html"><span class="material-icons">delete</a></span>
+        </td>
+        <td>Juan Carlos Martinez Gonzales</td>
+        <td>Av.Insurgentes</td>
+        </tr>
+    </tbody>
+</table>
+`;
+
+
+
+/*
     <form class="needs-validation" novalidate="">
     <div class="row">
       <div class="col-md-6 mb-3">
@@ -144,4 +167,4 @@ module.exports =
     <hr class="mb-4">
     <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
   </form>    
-    `;
+*/

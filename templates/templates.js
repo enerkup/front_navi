@@ -5,7 +5,7 @@ const nav = require('./nav.js');
 const set_datos_generales = require('./step/set_datos_generales.js');
 const set_datos_crediticios = require('./step/set_datos_crediticios.js');
 const set_validacion = require('./step/set_validacion.js');
-const set_cuestionario = require('./step/set_cuestionario.js');
+const set_retenciones = require('./step/set_retenciones.js');
 
 const alta = require('./step/alta.js');
 const solicitudes = require('./step/solicitudes.js');
@@ -19,6 +19,7 @@ const datos_referencias = require('./forms/datos_referencias.js');
 const datos_cuestionario = require('./forms/datos_cuestionario.js');
 
 const datos_avales = require('./forms/datos_avales.js');
+const datos_infonavit = require('./forms/datos_infonavit.js');
 
 const datos_dependientes_economicos = require('./forms/datos_dependientes_economicos.js');
 const inicio_form = require('./forms/inicio_form.js');
@@ -53,8 +54,9 @@ module.exports = {
                 datos_referencias:datos_referencias,
                 datos_cuestionario: datos_cuestionario,
 
-            set_cuestionario:set_cuestionario,
+            set_retenciones:set_retenciones,
                 datos_avales:datos_avales,
+                datos_infonavit:datos_infonavit,
 
             
             
