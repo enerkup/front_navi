@@ -40,3 +40,11 @@
       border-bottom-left-radius: 10px;
     }
 }
+
+.modal-header {
+  background-color: $base_blue;
+  color: white;
+  button.close {
+    color: white;
+  }
+}

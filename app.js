@@ -45,7 +45,15 @@ app.set('view engine','html');
 
 //rendering example for response
 app.get('/',(req,res)=>{    
-    res.render('index',templates.data());
+    res.render('index.html',templates.data());
+}); 
+
+app.get('/consulta.html',(req,res)=>{    
+  res.render('consulta.html',templates.data());
+}); 
+
+app.get('/detalle_consulta.html',(req,res)=>{    
+  res.render('detalle_consulta.html',templates.data());
 }); 
 
 

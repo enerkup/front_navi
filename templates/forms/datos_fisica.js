@@ -1,11 +1,12 @@
 module.exports = `
+
 <form id="datos">
 
     <div class="form-group mb-3">
         <label class="flotante" for="segundoApellido">* Actividad Empresarial</label>
         <input type="email" class="form-control" id="primerNombre" aria-describedby="emailHelp">                                        
     </div>
-
+    
     <div class="form-group">
         <label for="exampleFormControlSelect1">* Sector</label>
         <select class="form-control" id="exampleFormControlSelect1">
