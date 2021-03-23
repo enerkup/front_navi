@@ -13,6 +13,9 @@ module.exports =
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="./Content/css/theme.css" rel="stylesheet">    
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
     <title>{{title}}</title>
 
   </head>
