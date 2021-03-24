@@ -2,20 +2,28 @@
 
 <div class="container-fluid">
 
-    <div class="row">
-        <nav id="sidebar" class="col-md-3 col-lg-2 px-0">
+
+
+        <nav id="sidebar" class="row">
+        
+        <div class="col-md-12 col-lg-12">
+
             <div class="logo">
                 <a href="./"><img class="img-fluid" src="{{logo}}" alt=""></a>
             </div>
+        
+        </div>
+        
+        <div class="col-md-12 col-lg-12">
             {{>nav}}
-            <div class="imagenPdm">
-                <div class="imagenPdm__sombra"></div>
-            </div>
+        </div>
+            
         </nav>
-        <div id="stepsOrder" class="col-md-9 col-md-10 ml-sm-auto">            
-            <section class="step">
-                <h1>Alta de Solicitud</h1>           
-            </section>
+
+        <hr>
+
+    <div class="row">
+        <div id="stepsOrder" class="col-md-12 col-md-12 ml-sm-auto">            
 
             {{>alta}}
 

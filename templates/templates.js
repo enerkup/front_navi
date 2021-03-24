@@ -71,7 +71,7 @@ module.exports = {
     data: ()=> {
         return {
             title: "Navistar Financial",
-            logo: "./Content/images/logo.png",
+            logo: "./Content/images/logo.jpeg",
             nav_items: [
                 {
                     "item": "Home", 

@@ -20,7 +20,4 @@ module.exports =
 
   </head>
   <body>
-
-  <div class="topBar"></div>
-  
 `
