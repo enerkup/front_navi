@@ -8,6 +8,12 @@ if (window.location.href.indexOf("consulta") > 0)  {
 } 
 
 
+$(".lala span").click(function() {
+
+  $(this).closest("div").toggleClass("selected");
+
+});
+
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {

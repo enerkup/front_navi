@@ -49,3 +49,32 @@ body {
     color: white;
   }
 }
+
+
+.lala {
+  position: relative;
+  margin-bottom: 0px;
+  span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 7px;
+    cursor: pointer;
+  }
+  input {
+    font-weight: bold;
+    width: 0px;
+    border: none;
+    visibility: hidden;
+    transition: width 1s;
+  }
+}
+
+.lala.selected {
+  input {
+    width: 240px;
+    border: initial;
+    border: 1px solid gainsboro;
+    visibility: visible;
+  }
+}

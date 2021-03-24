@@ -11,4 +11,12 @@ module.exports = `
         <li class="op2">
             <a href="./consulta.html"> <span class="material-icons">manage_accounts</span></a>
         </li>
+        <li class="op3">
+            <div class="form-group lala">
+                <input type="email" class="form-control" id="primerNombre" aria-describedby="emailHelp">                                        
+                <span class="material-icons">search</span></a>  
+            </div>
+        </li>
     </ul>`;
+
+
