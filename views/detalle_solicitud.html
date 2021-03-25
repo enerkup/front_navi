@@ -2,25 +2,43 @@
 
 <div class="container-fluid">
 
+    <header>
 
+        <div class="container-fluid">
+    
+            <nav id="options" class="row">
+                
+                <div class="col-md-4">
+    
+                    <div class="logo">
+                        <a href="./"><img class="img-fluid" src="{{logo}}" alt=""></a>
+                    </div>
+                
+                </div>
+    
+                <div class="col-md-4 text-center forms_filters">                
+    
+                </div>
+                
+                <div class="col-md-4 text-right">
+                    <ul class="menu">                                
+                        <li class="op3">
+                            <a href="./"> 
+                                <span class="material-icons" data-toggle="tooltip" data-placement="bottom" title="Inicio">manage_accounts</span>
+                            </a>            
+                        </li>
+                        <li>
+                      </li>
+                    </ul>
+                </div>
+                    
+                </nav>
+    
+        </div>        
+    
+    </header>
 
-        <nav id="sidebar" class="row">
-        
-        <div class="col-md-12 col-lg-12">
-
-            <div class="logo">
-                <a href="./"><img class="img-fluid" src="{{logo}}" alt=""></a>
-            </div>
-        
-        </div>
-        
-        <div class="col-md-12 col-lg-12">
-            {{>nav}}
-        </div>
-            
-        </nav>
-
-        <hr>
+    <hr>
 
     <div class="row">
         <div id="stepsOrder" class="col-md-12  ml-sm-auto">
@@ -79,3 +97,4 @@
 {{>modal_dependientes}}
 
 {{>footer}} 
+

@@ -48,12 +48,8 @@ app.get('/',(req,res)=>{
     res.render('index.html',templates.data());
 }); 
 
-app.get('/consulta.html',(req,res)=>{    
-  res.render('consulta.html',templates.data());
-}); 
-
-app.get('/detalle_consulta.html',(req,res)=>{    
-  res.render('detalle_consulta.html',templates.data());
+app.get('/detalle_solicitud.html',(req,res)=>{    
+  res.render('detalle_solicitud.html',templates.data());
 }); 
 
 

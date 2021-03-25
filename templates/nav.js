@@ -1,22 +1,20 @@
 module.exports = `
-    <ul class="menu">
+    <ul class="menu">        
         <li class="op1">
-            <a href="./"> <span class="material-icons">dashboard_customize</span></a>
-            <!--
-            <ul>
-                <li><a href="#">A.1</a></li>
-            </ul>
-            -->
-        </li>
+            <a href="#"> 
+                <span class="material-icons" data-toggle="tooltip" data-placement="bottom" title="Filtrar por Fecha">filter_alt</span>
+            </a>
+        </li>    
         <li class="op2">
-            <a href="./consulta.html"> <span class="material-icons">manage_accounts</span></a>
+            <a href="#"> 
+                <span class="material-icons" data-toggle="tooltip" data-placement="bottom" title="Buscar Solicitud">search</span> 
+            </a>
         </li>
         <li class="op3">
-            <div class="form-group lala">
-                <input type="email" class="form-control" id="primerNombre" aria-describedby="emailHelp">                                        
-                <span class="material-icons">search</span></a>  
-            </div>
+            <a href="#" data-toggle="modal" data-target="#exampleModal"> 
+                <span class="material-icons" data-toggle="tooltip" data-placement="bottom" title="Alta Solicitud">dashboard_customize</span>
+            </a>            
         </li>
+        <li>
+      </li>
     </ul>`;
-
-

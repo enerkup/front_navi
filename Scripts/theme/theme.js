@@ -1,19 +1,42 @@
-
+/*
 if (window.location.href.indexOf("consulta") < 0)  { 
     $(".op1").addClass("selected");
 } 
+*/
 
-if (window.location.href.indexOf("consulta") > 0)  { 
-    $(".op2").addClass("selected");
-} 
-
-
-$(".lala span").click(function() {
-
-  $(this).closest("div").toggleClass("selected");
-
+$(".op1").click(function() {
+  $("ul li.selected").removeClass("selected");
+  $(this).addClass("selected");
+  $("form.date_range").show();
+  $("form.search_box").hide();
 });
 
+$(".op2").click(function() {
+  $("ul li.selected").removeClass("selected");
+  $(this).addClass("selected");
+  $("form.date_range").hide();
+  $("form.search_box").show();
+});
+
+
+function valida_forma() {
+  var sol = `
+  <tr>
+    <td><a href="./detalle_solicitud.html">Juan Carlos Martinez Gonzales</a></td>
+    <td>12/02/2021</td>
+    <td>En proceso / Enviada</td>
+  </tr>`;
+
+  $("tbody#add_user").append(sol);
+
+  $('#exampleModal').modal('hide');
+
+}
+
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {

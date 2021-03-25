@@ -1,0 +1,57 @@
+nav#options {
+  margin-top: 15px;
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      list-style-type: none;
+      display: inline-block;
+      background-color: white;
+      a {
+        color: $base_blue;
+        &:hover {
+          text-align: none;
+        }
+      }
+    }
+    li a {
+      span {
+        padding: 15px;
+      }
+    }
+    li.selected a {
+      span {
+        background-color: #f47820;
+        color: white;
+      }
+    }
+  }
+  .logo {
+    img {
+      max-width: 200px;
+    }
+  }
+}
+
+form.date_range {
+  p{
+    margin-top: 5px;
+    padding: 0px 5px;
+    margin-bottom: 0px;
+  }
+}
+
+.forms_filters {
+  form {
+    margin: 0 auto;
+    max-width: 400px;
+    display: none;
+    button {
+      line-height: 1;
+    }
+  }
+}
+
+header {
+  margin-bottom: 25px;
+}

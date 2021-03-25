@@ -2,10 +2,10 @@
 #stepsOrder {
     section.step {
         border-bottom: 1px solid gainsboro;
-        padding-bottom: 30px;
-        margin-top: 30px;
+        padding-bottom: 15px;
+        margin-top: 0px;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         line-height: 1;
         h1 {
             color: slategray;
@@ -34,10 +34,11 @@
                 display: inline-block;
                 background: none !important;
                 border: none !important;
+                padding: .8rem;
                 &::after {
                     content: " ";
                     width: 100%;            
-                    top: 1.6em;
+                    top: 2em;
                     left: -50%;
                     position: absolute;
                     display: inline-block;

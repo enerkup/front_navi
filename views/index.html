@@ -1,32 +1,68 @@
 {{>header}}
 
+<header>
+
+    <div class="container-fluid">
+
+        <nav id="options" class="row">
+            
+            <div class="col-md-4">
+
+                <div class="logo">
+                    <a href="./"><img class="img-fluid" src="{{logo}}" alt=""></a>
+                </div>
+            
+            </div>
+
+            <div class="col-md-4 text-center forms_filters">
+                
+                <form class="search_box">
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="nombre">
+                        </div>
+                        <button class="btn btn-secondary"> Buscar </button>
+                    </div>
+                </form>
+                
+                <form class="date_range">
+                    <div class="form-row">
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Fecha Inicio">
+                      </div>
+                      <p>  A </p>
+                      <div class="col">
+                        <input type="text" class="form-control" placeholder="Fecha Fin">
+                      </div>
+                      <button class="btn btn-secondary">Filtrar</button>
+                    </div>
+                </form>
+
+            </div>
+            
+            <div class="col-md-4 text-right">
+                {{>nav}}
+            </div>
+                
+            </nav>
+
+    </div>        
+
+</header>
+
 <div class="container-fluid">
         
-        <nav id="sidebar" class="row">
-        
-        <div class="col-md-12 col-lg-12">
-
-            <div class="logo">
-                <a href="./"><img class="img-fluid" src="{{logo}}" alt=""></a>
-            </div>
-        
-        </div>
-        
-        <div class="col-md-12 col-lg-12">
-            {{>nav}}
-        </div>
-            
-        </nav>
-
-        <hr>
+    <hr>
 
     <div class="row">
         <div id="stepsOrder" class="col-md-12 col-md-12 ml-sm-auto">            
 
-            {{>alta}}
+            {{>set_index}}
 
         </div>
     </div>
 </div>
+
+{{>modal_alta}}
 
 {{>footer}} 
