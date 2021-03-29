@@ -18,6 +18,11 @@ module.exports = `
         </tr>
     </tbody>
 </table>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal_1">
+Agregar Avales
+</button>
+
 `;
 
 

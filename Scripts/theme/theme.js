@@ -19,6 +19,15 @@ $(".op2").click(function() {
 });
 
 
+$("#tipo_personas").change(function() {
+
+  $(".logic_person").addClass("d-none");
+
+  $(".p_show_"+this.value+"").removeClass("d-none");
+  
+});
+
+
 function valida_forma() {
   var sol = `
   <tr>
@@ -59,6 +68,4 @@ $(function () {
       })
     }, false)
   })()
-
-  
   

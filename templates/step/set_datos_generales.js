@@ -5,9 +5,10 @@ module.exports =  `
 <div class="accordion" id="${unidad}">
 
   ${template("datos_fisica","Persona Física")}
+  ${template("datos_moral","Persona Moral")}
   ${template("datos_conyuge","Datos Conyuge")}
   ${template("datos_dependientes_economicos","Dependientes Económicos")}
-  
+
 </div>`;
 
 
