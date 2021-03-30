@@ -28,6 +28,16 @@ $("#tipo_personas").change(function() {
 });
 
 
+$("#custom_logic").change(function() {
+
+  $(".logic_aliado").toggleClass("selected");
+  
+});
+
+
+custom_logic
+
+
 function valida_forma() {
   var sol = `
   <tr>

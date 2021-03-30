@@ -42,13 +42,15 @@ module.exports = `
             <div class="form-group">
                 <span wfd-id="142">¿Requiere equipo Aliado?</span>
                 <div class="custom-control custom-checkbox">
-                    <input type="checkbox" class="custom-control-input" id="customCheck2">
-                    <label class="custom-control-label" for="customCheck2"> Si </label>
+                    <input type="checkbox" class="custom-control-input" id="custom_logic">
+                    <label class="custom-control-label" for="custom_logic"> Si </label>
                 </div>                                                                                    
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="logic_aliado">
+
+    <div class="col-md-4">
             <div class="form-group">
                 <label class="flotante" for="primerNombre">* Catidad</label>
                 <input type="email" class="form-control" id="primerNombre" aria-describedby="emailHelp">
@@ -65,6 +67,8 @@ module.exports = `
                 </select>
             </div>    
         </div>
+    </div>
+
     </div>
 
 

@@ -87,3 +87,11 @@
     background: #000428;
     background: linear-gradient(to right, #1d2227, #3e6d87);
 }
+
+.logic_aliado {
+    display: none;
+}
+
+.logic_aliado.selected {
+    display: contents;
+}
